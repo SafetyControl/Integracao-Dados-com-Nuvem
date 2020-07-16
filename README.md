@@ -46,10 +46,17 @@ Documentação do procedimento de integração dos dados apresentado no video: -
 # 6º Configurar a conexão do PFC com alguma plataforma da Nuvem que tenha MQTT Broker - nesse exemplo utilizamos a plataforma da IBM Cloud - 
 
 [![Criando-Recurso-Plataforma-IBM.jpg](https://i.postimg.cc/VN8Dckpw/Criando-Recurso-Plataforma-IBM.jpg)](https://postimg.cc/9DLGdCcg)
+
 - Os procedimentos para criar a conexão com o Cloud da IBM estarão no arquivo # e!C_ApplicationNote_Cloud Connectivity.pdf #
 
 - Após configurar um dispositivo na IBM Cloud, configure os parâmetros gerados pela plataforma na página Web do PFC:
 
-7º Validar comunicação MQTT e trabalhar com os dados já transmitidos ao cloud para realizar plotagens gráficas e outros tratamentos.
+[![Configuracao-WBM.jpg](https://i.postimg.cc/rwTD8sXy/Configuracao-WBM.jpg)](https://postimg.cc/Tpkd0R3B)
+
+# 7º Validar comunicação MQTT e trabalhar com os dados já transmitidos ao cloud para realizar plotagens gráficas e outros tratamentos.
+
+[![Status-Conexao.jpg](https://i.postimg.cc/X7bj5P2Q/Status-Conexao.jpg)](https://postimg.cc/vD0wF0wV)
+
+[![Dash-Boards.jpg](https://i.postimg.cc/7PB9JvYy/Dash-Boards.jpg)](https://postimg.cc/Cdqk9Qqv)
 
 8º Algumas observações no quesito segurança cibernética: Possibilidade de separar as VLAN do CLP / Configuração de Firewall / VPN através do 3G.
