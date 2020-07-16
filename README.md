@@ -35,7 +35,7 @@ Documentação do procedimento de integração dos dados apresentado no video: -
   - Recebendo variáveis do bloco Adapter e enviando para variáveis globais nomeadas:
   ![ScreenShot](https://i.postimg.cc/vmyjwG69/Recebendo-Variaveis.jpg)
 
-5º Adicionar a biblioteca WagoAppCloud para transmitir as variáveis através do MQTT.
+# 5º Adicionar a biblioteca WagoAppCloud para transmitir as variáveis através do MQTT.
 
   - Aqui é o mesmo procedimento que realizamos com a biblioteca EthernetIP_Adapter:
   ![Screenshot](https://i.postimg.cc/52X9QqPp/Adicionando-Library.jpg)
@@ -43,10 +43,12 @@ Documentação do procedimento de integração dos dados apresentado no video: -
   - Criar uma nova rotina para transmitir as variáveis globais através do MQTT:
   ![ScreenShot](https://i.postimg.cc/QdbWHNVh/Routine.jpg)
 
-6º Configurar a conexão do PFC com alguma plataforma da Nuvem que tenha MQTT Broker - nesse exemplo utilizamos a plataforma da IBM Cloud - 
+# 6º Configurar a conexão do PFC com alguma plataforma da Nuvem que tenha MQTT Broker - nesse exemplo utilizamos a plataforma da IBM Cloud - 
 
 [![Criando-Recurso-Plataforma-IBM.jpg](https://i.postimg.cc/VN8Dckpw/Criando-Recurso-Plataforma-IBM.jpg)](https://postimg.cc/9DLGdCcg)
-- Os procedimentos para criar a conexão com o Cloud da IBM estarão no arquivo #e!C_ApplicationNote_Cloud Connectivity.pdf#
+- Os procedimentos para criar a conexão com o Cloud da IBM estarão no arquivo # e!C_ApplicationNote_Cloud Connectivity.pdf #
+
+- Após configurar um dispositivo na IBM Cloud, configure os parâmetros gerados pela plataforma na página Web do PFC:
 
 7º Validar comunicação MQTT e trabalhar com os dados já transmitidos ao cloud para realizar plotagens gráficas e outros tratamentos.
 
