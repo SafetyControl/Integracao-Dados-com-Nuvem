@@ -1,0 +1,619 @@
+$ EZ-EDS Version 3.11 (Beta, May-09, 2012) Generated Electronic Data Sheet
+
+[File]
+        DescText = "e!COCKPIT EtherNet/IP Adapter Library";
+        CreateDate = 01-23-2015;
+        CreateTime = 08:28:42;
+        ModDate = 08-11-2016;
+        ModTime = 13:47:37;
+        Revision = 1.0;
+        HomeURL = "http://www.wago.com";
+
+[Device]
+        VendCode = 40;
+        VendName = "WAGO Kontakttechnik GmbH & Co. KG";
+        ProdType = 12;
+        ProdTypeStr = "Communications Adapter";
+        ProdCode = 2759;
+        MajRev = 1;
+        MinRev = 1;
+        ProdName = "WAGO 2759-101 EN/IP";    $ WagoAppSysEtherNetIP_Adapter requieres exactly 19 characters!!!
+        Catalog = "WagoAppEtherNetIP_Adapter";
+        Icon = "eCOCKPIT.ico";
+        IconContents =
+                "AAABAAEAQEAAAAEAIAAoQgAAFgAAACgAAABAAAAAgAAAAAEAIAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4TbIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAASLhNv0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE39AAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AEi4TY9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4TSAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE1QSLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE1gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAASLhNIEi4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhNoEi4"
+                "TRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAABIuE3pSLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/Vr5b/37Ngf+j26b/o9um/6Pbpv+j26b/o9um/4vSjv9xyHX/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhNvEi4TSAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASLhNs0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0m5Tv6j26b/6Pbp////////////////"
+                "///////////////////////////////////////G6cf/itKN/0q5T/9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9o"
+                "xWzZ5/bo8v/////0+/T/uOO69k66U/tIuE3/SLhNUAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEi4TXBIuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/53ZoPD0+/T/////////////////////////////////////////////"
+                "///////////////////////////////0+/T/o9um/0m5Tv9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9jwmfm////////////////////"
+                "///////0+/T/d8p7+0i4Tf9IuE0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAABIuE1ASLhN/0i4Tf9IuE3/SLhN/dvx3PP/////////////"
+                "////////////////////////////////////////////////////////////"
+                "///////////////////////0+/T/mNea/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/xunH//////////////////////////////////////9e"
+                "wGL/TLpR5wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AEi4Tf9IuE3/SLhN/dnw2ub/////////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "///////////////R7dL/SbhO/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/9Ht"
+                "0v//////////////////////////////////////0e3S/0i4Tf9IuE1QAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE3KSLhN/7zlvaz/"
+                "///////////////////////////////////////////////0+/T/0e3S/83s"
+                "zujH6cnQx+nJ0PL68uL/////////////////////////////////////////"
+                "//T79P9jw2j/SLhN/0i4Tf9IuE3/SLhN/0i4Tf+65Lz/////////////////"
+                "//////////////////////////9Qu1X/SLhNhgAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAASLhNmlO8WLb/////////////////////////"
+                "/////////////////7rkvP9gwWT7SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SblO7XDIdLvi9OPI////////////////////////////////9Pv0/2PCZ/9I"
+                "uE3/SLhN/0i4Tf9IuE3/asVu8f//////////////////////////////////"
+                "////////a8Zv/0i4TYYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAEi4TUTd8t6s////////////////////////////////6Pbp/2LCZv9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/2zG"
+                "cLT0+/Tx///////////////////////////0+/T/Y8Jn/0i4Tf9IuE3/SLhN"
+                "/0i4Tf+v4LH//////////////////////////////////////1C7Vf5IuE2G"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////8P//"
+                "////////////////////////9Pv0/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SrlP3Nfv2Nn/////"
+                "//////////////////////T79P9jw2j/SLhN/0i4Tf9IuE3/SLhN/6/gsf//"
+                "/////////////////////////6/gsf9IuE3/SLhNMAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAA////UP//////////////////////////"
+                "/////2/Hc/9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3+1+/Y2f//////////////////"
+                "////////9Pv0/1m/Xv9IuE3/SLhN/0i4Tf9IuE3/UrxX+LjjuvbR7dL/0e3S"
+                "/4PPhvRIuE3/SLhNqgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAP///4D//////////////////////////9Ht0v9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf3X79jZ//////////////////////T79P+L0o75"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3uSLhNhAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////A////"
+                "//////////////////////+J0Y3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/dvx3PP//////////9Ht0v9TvFj6SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhNQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////wP//////////////////////"
+                "////Y8No/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9JuU780e3S"
+                "/5bWmPhIuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4TYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAP///////////////////////////////0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3YSLhNgEi4"
+                "TahIuE3RSLhNIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////"
+                "//////////////////////////9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/Vr5b0Fa9WtRUvVnWU7xY2FO8WNpTvFjYSLhN/0i4TWAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////"
+                "////////SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN//T79P//"
+                "/////////////////////////1m+XfVIuE2oAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAP///9D//////////////////////////0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf/R7dL/////////////////////"
+                "//////+S1ZX5SLhN9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/"
+                "///A//////////////////////////9Qu1X/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/o9um////////////////////////////xunH/0i4Tf9I"
+                "uE0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////oP//////////////"
+                "////////////////////////////////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "/////////////////////////////////////////0i4Tf9IuE3/SLhN/3bK"
+                "evH///////////////////////////T79P9IuE3/SLhNYAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAP///4D/////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "//////////////////////9bv1/wSLhN/0i4Tf9SvFf4////////////////"
+                "////////////////WL5c9ki4TakAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAD///9A////////////////////////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "////f82D6Ei4Tf9IuE3/SLhN/////////////////////////////////5HU"
+                "lPlIuE30AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////"
+                "////////////////////////////////////////////////////////////"
+                "////////////////////////////////////////////////////////////"
+                "/////////////////////////////////////////////5fXmuBIuE3/SLhN"
+                "/0i4Tf/R7dL////////////////////////////G6cf/SLhN/0i4TSAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///+w////////////////////////"
+                "///0+/T/0e3S/9Ht0v/R7dL/0e3S/9Ht0v/R7dL/0e3S/9Ht0v/R7dL/0e3S"
+                "/9Ht0v/R7dL/0e3S/9Ht0v/R7dL/0e3S/9Ht0v/R7dL/0e3S/9Ht0v/d8t3/"
+                "//////////////////////////+14rfsSLhN/0i4Tf9IuE3/r+Cx////////"
+                "////////////////////9Pv0/0i4Tf9IuE1gAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAA////YP//////////////////////////9Pv0/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/asVv////////////////////"
+                "////////0O3R9Ei4Tf9IuE3/SLhN/4LPhu7/////////////////////////"
+                "//////9Yvlz2SLhNqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///xD/"
+                "///w//////////////////////////+W1pj/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/2/Hc////////////////////////////8fpydBIuE3/"
+                "SLhN/0i4Tf9cwGHz////////////////////////////////kdSU+Ui4TfQA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////oP//////////////"
+                "////////////9Pv0/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf+J"
+                "0Y3///////////////////////////+65LzUSLhN/0i4Tf9IuE3/SLhN////"
+                "/////////////////////////////8bpx/9IuE3/SLhNIAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAP///yD////////////////////////////////G"
+                "6cf/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/uuS8////////////////"
+                "////////////k9WW2Ei4Tf9IuE3/SLhN/0i4Tf/d8t3/////////////////"
+                "///////////0+/T/SLhN/0i4TWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAA////oP///////////////////////////////6/gsf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SbhO//T79P///////////////////////////3LIddFI"
+                "uE3/SLhN/0i4Tf9IuE3/uuS8/////////////////////////////////1i+"
+                "XPZIuE2pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///xD////w"
+                "////////////////////////////////otul/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/6Lb"
+                "pf////////////////////////////////9MulHwSLhN/0i4Tf9IuE3/SLhN"
+                "/5LVlfL///////////////////////////////+O05HySLhN9AAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////YP//////////////////"
+                "///////////////////G6cf/SbhO/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/2HCZf//////////////////////"
+                "///////////n9ujySLhN/0i4Tf9IuE3/SLhN/0i4Tf9mxGru////////////"
+                "////////////////////xunH/0i4Tf9IuE0gAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAC85b26teK3////////////////////////////"
+                "/////+j26f+BzoXuSLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/3zMf//0+/T/////////////////////////////////gM6Dz0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN////////////////////////////////"
+                "//T79P9IuE3/SLhNYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAA////EEi4Tf+65Lz//////////////////////////////////////+j2"
+                "6f+R1JTyWb5d70i4Tf9IuE3/SLhN/0i4Tf9JuE7/e8x/+9Ht0v//////////"
+                "////////////////////////////5/bo8ki4TfxIuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf/o9un/////////////////////////////////Vr5b9Ei4TakA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLuVDPSLhN"
+                "/6/gsf//////////////////////////////////////////////////////"
+                "3fLd/9Ht0v/0+/T/////////////////////////////////////////////"
+                "/////////2jFbNpIuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/xunH////"
+                "/////////////////////////////47TkfJIuE30AAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASLhNkki4Tf9IuE3/fc2B//T79P//"
+                "////////////////////////////////////////////////////////////"
+                "/////////////////////////////////////////////4LPhu5IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/6HbpPj/////////////////////"
+                "///////////G6cf/SLhN/0i4TSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAEi4TWBIuE3/SLhN/0i4Tf9JuU7/uuS8////////////////"
+                "////////////////////////////////////////////////////////////"
+                "/////////////////////4LPhu5IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9oxWzx////////////////////////////////9Pv0/0i4"
+                "Tf9IuE1gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE0g"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9xyHX/uuS8////////////////////////"
+                "////////////////////////////////////////////////////0e3S/17B"
+                "Y/ZIuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SbhO"
+                "//////////////////////////////////////9Wvlv0SLhNqQAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEi4Tf5IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9Wvlv/mNea/8bpx//0+/T/////////////////////"
+                "/////////////////+j26f+65Lz/bcZx+Ei4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf/0+/T/////////////"
+                "////////////////////jtOR8ki4TfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAABIuE20SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/1e+XP9xyHX/cMh0/3DIdP9wyHT/cch1/1e+XP5I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/0e3S////////////////////////////////"
+                "/9Ht0v9IuE3/SLhNIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAASLhNgEi4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/6HbpPj/////////////////////////////////////SLhN/0i4TWAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEi4TUBIuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf90yXjt////////"
+                "/////////////////////////////2DBZO1IuE2pAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/WL5c7P//////////////////////////"
+                "//////////+a2J3wSLhN9QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAEi4TdlIuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf//////////////////////////////////////0e3S/0i4"
+                "Tf9IuE0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE2Q"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/0e3S"
+                "//////////////////////////////////////9IuE3/SLhNYAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASLhNYEi4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/6/gsf//////////////////"
+                "////////////////////YMFk7Ui4TakAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAEi4TSBIuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9/zYLo////////////////////////////////////"
+                "/5rYnfBIuE31AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAASLhN/ki4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "YsJm5v/////////////////////////////////////R7dL/SLhN/0i4TSAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEi4TbRIuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf//////////////"
+                "/////////////////////////////0i4Tf9IuE1gAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAABIuE2BSLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4"
+                "Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/3fLd////////////////////////////"
+                "//////////9ewGLqSLhNqQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAASLhNQEi4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN"
+                "/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/"
+                "SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9IuE3/SLhN/0i4Tf9I"
+                "uE3/SLhN/7rkvP//////////////////////////////////////l9ea6Ui4"
+                "TfUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE2H"
+                "SLhNgUi4TYBIuE2ASLhNgEi4TYBIuE2ASLhNgEi4TYBIuE2ASLhNgEi4TYBI"
+                "uE2ASLhNgEi4TYBIuE2ASLhNgEi4TYBIuE2ASLhNgEi4TYBIuE2ASLhNgEi4"
+                "TYBIuE2ASLhNgEi4TYBIuE2ASLhNgEi4TYBIuE2ASLhNgEi4Te2J0Yzl////"
+                "/////////////////////////////////9Ht0v9IuE3/SLhNIAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAABIuE2mYMFl7f//////////////////////"
+                "////////////////////SLhN/0i4TWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAASLhNcki4Tf//////////////////////////////////////////"
+                "/17AYupIuE2pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEi4TUBIuE3/"
+                "6Pbp//////////////////////////////////////+X15rpSLhN9QAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIuE0QSLhN/8bpx///////////////"
+                "////////////////////////0e3S/0i4Tf9IuE0gAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAEi4TfWX15rp////////////////////////////////"
+                "//////////9IuE3/SLhNYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABI"
+                "uE28YMFl7f//////////////////////////////////////////XsFj6ki4"
+                "TagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASLhNhU26Uvj/////////"
+                "/////////////////////////////////5vYnehIuE3xAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAEi4TUBIuE3/SLhN/0i4Tf9lw2nzZMNo82TDaPOU"
+                "1pfglNaX4JfXmuCX15rgSLhN/0i4TSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                "AABIuE0QSLhNQEi4TVBIuE2ASLhNgEi4TYBIuE3GSLhNxUi4TcRIuE3/SLhN"
+                "/0i4Tf9IuE1gAAAAAAAAAAAAAAAA4AAAAAA////gAAAAAD///+AAAAAAH///"
+                "4AAAAAAf///gAAAAAA////AAAAAAA///8AAAAAAB///wAAAAAAD///AAAAAA"
+                "AP//+AAAAAAAf//4AAAAAAB///gAAAAAAH//+AAAAAAAf//8AAAAAAB///gA"
+                "AAAAAP//+AAAAAAB///4AAAAAAP///gAAAAAA///+AAAAAAAP//4AAAAAAA/"
+                "//gAAAAAAD//+AAAAAAAP//4AAAAAAAf//gAAAAAAB//+AAAAAAAH//4AAAA"
+                "AAAf//wAAAAAAA///AAAAAAAD//8AAAAAAAP//wAAAAAAA///gAAAAAAB//+"
+                "AAAAAAAH//8AAAAAAAf//wAAAAAAB///gAAAAAAD///AAAAAAAP//8AAAAAA"
+                "A///4AAAAAAD///gAAAAAAH//+AAAAAAAf//4AAAAAAB///wAAAAAAH///AA"
+                "AAAAAP//8AAAAAAA///wAAAAAAD///gAAAAAAP//+AAAAAAAf//4AAAAAAB/"
+                "//gAAAAAAH//+AAAAAAAf//8AAAAAAA///wAAAAAAD///AAAAAAAP//8AAAA"
+                "AAA///4AAAAAAB////////4AH////////gAf///////+AB////////4AD///"
+                "/////wAP////////AA////////8AD////////wAH////////AAc=";
+
+[Device Classification]
+        Class1 = EtherNetIP;
+
+[Params]
+        Param1 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Data Size",            $ name
+                "",                     $ units
+                "",                     $ help string
+                0,500,32,               $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+        Param2 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xD2,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "Config Parameter",     $ name
+                "",                     $ units
+                "This is a dummy parameter for Rockwell tools.",    $ help string
+                ,,0,                    $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                ;                       $ decimal places
+
+        Param200 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "O->T Data Size",       $ name
+                "Bytes",                $ units
+                "variable size for Producing",    $ help string
+                0,500,32,               $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                0;                      $ decimal places
+
+        Param201 =
+                0,                      $ reserved, shall equal 0
+                ,,                      $ Link Path Size, Link Path
+                0x0000,                 $ Descriptor
+                0xC7,                   $ Data Type
+                2,                      $ Data Size in bytes
+                "T->O Data Size",       $ name
+                "Bytes",                $ units
+                "variable size for Consuming",    $ help string
+                0,500,32,               $ min, max, default data values
+                ,,,,                    $ mult, div, base, offset scaling
+                ,,,,                    $ mult, div, base, offset links
+                0;                      $ decimal places
+
+
+
+[Assembly]
+        Assem110 =
+                "Port 1 Input Data",    $ Symbolic name
+                ,                       $ Path
+                500,                    $ Datasize
+                0x0001,                 $ member references may not be edited
+                ,;                      $ reserved
+
+        Assem111 =
+                "Port 1 Output Data",   $ Symbolic name
+                ,                       $ Path
+                500,                    $ Datasize
+                0x0001,                 $ member references may not be edited
+                ,;                      $ reserved
+
+
+[Connection Manager]
+        Connection1 =
+                0x04030002,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x4464040F,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                ,Param200,Assem110,     $ O->T RPI, size, format
+                ,Param201,Assem111,     $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                2,Param2,               $ target config size, format
+                "Exclusive Owner",      $ Connection Name
+                "",                     $ help string
+                "20 04 24 66 2C 64 2C 65";    $ Path
+        Connection2 =
+                0x02010002,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x4464030F,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                ,0,,                    $ O->T RPI, size, format
+                ,Param201,Assem111,     $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,,                      $ target config size, format
+                "Input Only",           $ Connection Name
+                "",                     $ help string
+                "20 04 2C C6 2C 65";    $ Path
+        Connection3 =
+                0x01010002,             $ 0-15    = supported transport classes
+                                        $ 16      = trigger: cyclic
+                                        $ 17      = trigger: change of state
+                                        $ 18      = trigger: application
+                                        $ 19-23   = trigger: reserved
+                                        $ 24      = application type: listen-only
+                                        $ 25      = application type: input-only
+                                        $ 26      = application type: exclusive-owner
+                                        $ 27      = application type: redundant-owner
+                                        $ 28-30   = reserved
+                                        $ 31      = Direction: Client = 0 / Server = 1
+                0x4464030F,             $ 0       = O->T fixed size supported
+                                        $ 1       = O->T variable size supported
+                                        $ 2       = T->O fixed size supported
+                                        $ 3       = T->O variable size supported
+                                        $ 4-5     = O->T number of bytes per slot (obsolete)
+                                        $ 6-7     = T->O number of bytes per slot (obsolete)
+                                        $ 8-10    = O->T Real time transfer format
+                                        $ 11      = reserved
+                                        $ 12-14   = T->O Real time transfer format
+                                        $ 15      = reserved
+                                        $ 16      = O->T connection type: NULL
+                                        $ 17      = O->T connection type: MULTICAST
+                                        $ 18      = O->T connection type: POINT2POINT
+                                        $ 19      = O->T connection type: reserved
+                                        $ 20      = T->O connection type: NULL
+                                        $ 21      = T->O connection type: MULTICAST
+                                        $ 22      = T->O connection type: POINT2POINT
+                                        $ 23      = T->O connection type: reserved
+                                        $ 24      = O->T priority: LOW
+                                        $ 25      = O->T priority: HIGH
+                                        $ 26      = O->T priority: SCHEDULED
+                                        $ 27      = O->T priority: reserved
+                                        $ 28      = T->O priority: LOW
+                                        $ 29      = T->O priority: HIGH
+                                        $ 30      = T->O priority: SCHEDULED
+                                        $ 31      = T->O priority: reserved
+                ,0,,                    $ O->T RPI, size, format
+                ,Param201,Assem111,     $ T->O RPI, size, format
+                ,,                      $ proxy config size, format
+                ,,                      $ target config size, format
+                "Listen Only",          $ Connection Name
+                "",                     $ help string
+                "20 04 2C C7 2C 65";    $ Path
+
+[Capacity]
+        TSpec1 = TxRx, 1, 1000;
+        TSpec2 = TxRx, 504, 1000;
+
