@@ -7,6 +7,7 @@ Documentação do procedimento de integração dos dados apresentado no video: -
   - O arquivo para a instalação é o WagoAppEthrenetIp_Adapter.eds.
   
   - Após EDS ser instalado, configuramos um novo módulo na rede Ethernet, ele estará descrito como: WAGO 2759-101 EN/IP:
+  
   ![ScreenShot](https://i.postimg.cc/Xq8nfZWj/PFC-adicionado.jpg)
       - Damos um nome para o módulo.
       - Indicamos o seu endereço de IP.
